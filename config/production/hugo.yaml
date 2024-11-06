@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://dridani.vercel.app"
 
 analytics:
   google:
