@@ -17,3 +17,7 @@ mark {
     top: 6px;
     right: 6px;
 }
+
+.terms-tags li {
+    margin: 5px;
+}
