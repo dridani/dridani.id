@@ -1,0 +1,63 @@
+title: "DRIDANI ID"
+description: "Blog statis sederhana yang berisi catatan, ulasan, dan pengalaman pribadi."
+keywords: ["DRIDANI", "Blog", "Dokumentasi", "Hugo", "Teknologi", "Tutorial"]
+author: "Dony Ridani"
+DateFormat: "02 January 2006"
+mainsections: ["posts"]
+
+defaultTheme: auto
+disableThemeToggle: false
+disableSpecial1stPost: true
+disableScrollToTop: false
+ShowBreadCrumbs: false
+ShowReadingTime: true
+ShowWordCount: false
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowCodeCopyButtons: true
+ShowPageNums: true
+ShowRssButtonInSectionTermList: false
+UseHugoToc: true
+comments: false
+hidemeta: false
+hideSummary: false
+showtoc: true
+tocopen: false
+
+assets:
+  favicon: "favicon.ico"
+  favicon16x16: "favicon-16x16.png"
+  favicon32x32: "favicon-32x32.png"
+  apple_touch_icon: "apple-touch-icon.png"
+
+label:
+  text: "DRIDANI ID"
+homeInfoParams:
+  Title: "Selamat Datang!"
+  Content: "Blog statis sederhana yang berisi catatan, ulasan, dan pengalaman saya pribadi."
+
+socialIcons:
+  - name: facebook
+    url: "https://facebook.com/dony.ridani"
+  - name: instagram
+    url: "https://instagram.com/dony.ridani"
+  - name: github
+    url: "https://github.com/dridani"
+  - name: telegram
+    url: "https://t.me/dony.ridani"
+
+cover:
+  hidden: true
+  hiddenInList: true  
+  hiddenInSingle: true
+  responsiveImages: false
+
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  limit: 10
+  keys: ["title", "permalink", "summary", "content"]
