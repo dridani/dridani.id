@@ -21,3 +21,8 @@ mark {
 .terms-tags li {
     margin: 5px;
 }
+
+::selection {
+    background-color: #bf616a;
+    color: #eceff4;
+}
