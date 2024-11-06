@@ -11,3 +11,9 @@ mark {
     padding: .1em;
     padding-bottom: .1em;
 }
+
+.copy-code {
+    border-radius: 5px;
+    top: 6px;
+    right: 6px;
+}
