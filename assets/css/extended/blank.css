@@ -6,3 +6,8 @@ body {
 #menu .active {
     font-weight: 400;
 }
+
+mark {
+    padding: .1em;
+    padding-bottom: .1em;
+}
