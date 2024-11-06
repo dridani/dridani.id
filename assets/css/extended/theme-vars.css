@@ -1,0 +1,77 @@
+:root {
+    --gap: 20px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme:#eceff4;
+    --entry:#eceff4;
+    --primary:#4C566A;
+    --secondary: #434C5E;
+    --tertiary: #D8DEE9;
+    --content: #434C5E;
+    --code-block-bg: #434C5E;
+    --code-bg: #e5e9f0;
+    --code: #D8DEE9;
+    --border:  #434c5e;
+}
+
+.dark {
+    --theme: #292E39;
+    --entry: #292E39;
+    --primary: #D8DEE9;
+    --secondary: #D8DEE9;
+    --tertiary: #3b4252;
+    --content: #D8DEE9;
+    --code-block-bg: #3b4252;
+    --code-bg: #292E39;
+    --code: #3b4252;
+    --border: #D8DEE9;
+}
+
+mark {
+    background: #bf616a;
+    color: #eceff4;
+  }
+
+.post-content code {
+    background: var(--code);
+}
+
+.copy-code {
+    color: var(--content);
+    background: var(--tertiary);
+}
+
+.dark .copy-code {
+    color: var(--tertiary);
+    background: var(--content);
+}
+
+.terms-tags a {
+    background: var(--theme);
+    border: 1px solid var(--border);
+}
+
+.post-tags a:hover,
+.paginav a:hover {
+    background: var(--tertiary);
+}
+
+#searchbox input {
+    border: 2px solid var(--primary);
+}
+
+#searchResults a {
+    color: var(--content);
+}
+
+.archive-year:not(:last-of-type) {
+    border-bottom: 2px solid var(--tertiary);
+}
+
+.archive-month:not(:last-of-type) {
+    border-bottom: 1px solid var(--tertiary);
+}
