@@ -55,7 +55,12 @@ mark {
 }
 
 #searchbox input {
+    background: var(--tertiary);
     border: 2px solid var(--primary);
+}
+
+.dark #searchbox input {
+    background: var(--theme);
 }
 
 #searchResults a {
