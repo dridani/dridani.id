@@ -6,6 +6,7 @@ hideMeta: true
 showtoc: false
 disableShare: true
 comments: false
+showBio: false
 ---
 
 Hai! Kenalkan nama saya Dony Ridani, asal saya dari Banjarbaru, Kalimantan Selatan. Saya seorang yang senang dengan hal-hal yang berhubungan tentang teknologi, atau istilah jaman sekarang disebut *Tech Enthusiast*.
