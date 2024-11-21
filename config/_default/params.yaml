@@ -24,6 +24,7 @@ hideSummary: false
 showtoc: true
 tocopen: true
 social: true
+showBio: true
 
 assets:
   favicon: "favicon.ico"

@@ -26,3 +26,39 @@ mark {
     background-color: #bf616a;
     color: #eceff4;
 }
+
+.bio {
+    background-color: var(--code-bg);
+    border-radius: var(--radius);
+    padding: 15px 20px;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    margin-bottom: 10px;
+    page-break-before: always
+}
+  
+.bio span {
+    font-weight: 800;
+    font-size: 24px
+}
+  
+.bio p {
+    color: var(--secondary);
+    font-size: 16px
+}
+  
+.bio img {
+    border-radius: 12px
+}
+  
+@media(max-width: 768px) {
+    .bio {
+        flex-direction:column
+    }
+  
+    .bio div {
+        text-align: center
+    }
+}
