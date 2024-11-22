@@ -22,11 +22,6 @@ mark {
     margin: 5px;
 }
 
-::selection {
-    background-color: #bf616a;
-    color: #eceff4;
-}
-
 .bio {
     background-color: var(--code-bg);
     border-radius: var(--radius);
