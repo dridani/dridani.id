@@ -38,14 +38,14 @@
 
 :root {
   --theme: #fafafa;
-  --entry: #e5e5e5;
+  --entry: #e5e7eb;
   --primary: #0a0a0a;
   --secondary: #171717;
   --tertiary: #d4d4d4;
   --content: #171717;
   --code-block-bg: #0a0a0a;
-  --code-bg: #e5e5e5;
-  --border: #e5e5e5;
+  --code-bg: #e5e7eb;
+  --border: #e5e7eb;
 }
 
 body#top.list {
