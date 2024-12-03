@@ -1,59 +1,59 @@
 body {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 #menu .active {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 mark {
-    padding: .1em;
-    padding-bottom: .1em;
+  padding: 0.1em;
+  padding-bottom: 0.1em;
 }
 
 .copy-code {
-    border-radius: 5px;
-    top: 6px;
-    right: 6px;
+  border-radius: 5px;
+  top: 6px;
+  right: 6px;
 }
 
 .terms-tags li {
-    margin: 5px;
+  margin: 5px;
 }
 
 .bio {
-    background-color: var(--code-bg);
-    border-radius: var(--radius);
-    padding: 15px 20px;
-    border: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: var(--gap);
-    margin-bottom: 10px;
-    page-break-before: always
+  background-color: var(--code-bg);
+  border-radius: var(--radius);
+  padding: 15px 20px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  margin-bottom: 10px;
+  page-break-before: always;
 }
-  
+
 .bio span {
-    font-weight: 800;
-    font-size: 24px
+  font-weight: 800;
+  font-size: 24px;
 }
-  
+
 .bio p {
-    color: var(--secondary);
-    font-size: 16px
+  color: var(--secondary);
+  font-size: 16px;
 }
-  
+
 .bio img {
-    border-radius: 12px
+  border-radius: 12px;
 }
-  
-@media(max-width: 768px) {
-    .bio {
-        flex-direction:column
-    }
-  
-    .bio div {
-        text-align: center
-    }
+
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+  }
+
+  .bio div {
+    text-align: center;
+  }
 }
