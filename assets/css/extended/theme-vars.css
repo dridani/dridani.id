@@ -41,7 +41,7 @@
   --entry: #e5e7eb;
   --primary: #0a0a0a;
   --secondary: #171717;
-  --tertiary: #d4d4d4;
+  --tertiary: #d1d5db;
   --content: #171717;
   --code-block-bg: #0a0a0a;
   --code-bg: #e5e7eb;
@@ -56,12 +56,12 @@ mark {
   background: #fabd2f;
 }
 
-.post-content code {
+/* .post-content code {
   background: var(--tertiary);
-}
+} */
 
 .copy-code {
-  color: var(--content);
+  color: var(--primary);
   background: var(--theme);
 }
 
@@ -97,10 +97,10 @@ mark {
   border-bottom: 2px solid var(--tertiary);
 }
 
-::selection {
+/* ::selection {
   background-color: #fabd2f;
   color: var(--content);
-}
+} */
 
 .archive-month:not(:last-of-type) {
   border-bottom: 1px solid var(--tertiary);
