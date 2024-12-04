@@ -1,3 +1,4 @@
+/* Nordic Color Theme */
 /* :root {
     --theme:#eceff4;
     --entry:#eceff4;
@@ -10,7 +11,6 @@
     --code: #D8DEE9;
     --border:  #434c5e;
 }
-
 .dark {
     --theme: #292E39;
     --entry: #292E39;
@@ -24,6 +24,7 @@
     --border: #D8DEE9;
 } */
 
+/* Gruvbox Color Theme */
 /* :root {
     --theme: #fbf1c7;
     --entry: #f2e5bc;
@@ -36,16 +37,17 @@
     --border: #f2e5bc;
 } */
 
+/* Github Color Theme */
 :root {
-  --theme: #fafafa;
-  --entry: #e5e7eb;
-  --primary: #0a0a0a;
-  --secondary: #171717;
-  --tertiary: #d1d5db;
-  --content: #171717;
-  --code-block-bg: #0a0a0a;
-  --code-bg: #e5e7eb;
-  --border: #e5e7eb;
+  --theme: #ffffff;
+  --entry: #f6f8fa;
+  --primary: #15141a;
+  --secondary: #5b5b66;
+  --tertiary: #e8ebee;
+  --content: #15141a;
+  --code-block-bg: #282828;
+  --code-bg: #f6f8fa;
+  --border: #d1d9e0;
 }
 
 body#top.list {
@@ -56,19 +58,14 @@ mark {
   background: #fabd2f;
 }
 
-/* .post-content code {
+.post-content code {
   background: var(--tertiary);
-} */
+}
 
 .copy-code {
   color: var(--primary);
-  background: var(--theme);
+  background: var(--tertiary);
 }
-
-/* .dark .copy-code {
-    color: var(--tertiary);
-    background: var(--content);
-} */
 
 .terms-tags a {
   background: var(--entry);
@@ -85,10 +82,6 @@ mark {
   border: 2px solid var(--primary);
 }
 
-/* .dark #searchbox input {
-    background: var(--theme);
-} */
-
 #searchResults a {
   color: var(--content);
 }
@@ -96,11 +89,6 @@ mark {
 .archive-year:not(:last-of-type) {
   border-bottom: 2px solid var(--tertiary);
 }
-
-/* ::selection {
-  background-color: #fabd2f;
-  color: var(--content);
-} */
 
 .archive-month:not(:last-of-type) {
   border-bottom: 1px solid var(--tertiary);
