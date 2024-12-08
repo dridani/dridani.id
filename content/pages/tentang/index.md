@@ -9,7 +9,8 @@ comments: false
 showBio: false
 ---
 
-Hai! Kenalkan nama saya Dony Ridani, asal saya dari Banjarbaru, Kalimantan Selatan. Saya seorang yang senang dengan hal-hal yang berhubungan tentang teknologi, atau istilah jaman sekarang disebut *Tech Enthusiast*.
+Kenalkan nama saya Dony Ridani, saya berasal dari Kota Banjarbaru, Kalimantan Selatan. Saya seorang yang senang dengan hal-hal yang berhubungan tentang teknologi, atau kalo di zaman sekarang sebutannya *Tech Enthusiast*.
 
-Blog ini merupakan tempat bagi saya mengekpresikan diri sekaligus mendokumentasikan hal-hal yang saya dapatkan dari hasil belajar ataupun coba-coba.
+Blog ini adalah tempat bagi saya mengekpresikan diri, sekaligus mendokumentasikan hasil belajar dan pengalaman saya.
 
+Karena itulah blog ini tidak hanya sekedar membahas hal-hal mengenai teknologi, namun juga berisi curhatan dan opini pribadi saya.
