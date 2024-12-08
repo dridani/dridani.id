@@ -35,8 +35,8 @@ assets:
 label:
   text: "DRIDANI ID"
 homeInfoParams:
-  Title: "Selamat Datang!"
-  Content: "Blog statis sederhana yang berisi catatan, ulasan, dan pengalaman pribadi."
+  Title: "Hai!"
+  Content: "Selamat datang di blog statis sederhana yang berisi catatan, ulasan, dan pengalaman pribadi."
 
 socialIcons:
   - name: facebook
