@@ -36,13 +36,13 @@ label:
   text: "DRIDANI ID"
 homeInfoParams:
   Title: "Hai!"
-  Content: "Selamat datang di blog statis sederhana yang berisi catatan, ulasan, dan pengalaman pribadi."
+  Content: "Selamat datang di blog sederhana yang berisi catatan, ulasan, dan pengalaman pribadi."
 
 socialIcons:
-  - name: facebook
-    url: "https://facebook.com/dony.ridani"
+  # - name: facebook
+  #   url: "https://facebook.com/dony.ridani"
   - name: instagram
-    url: "https://instagram.com/dony.ridani"
+    url: "https://instagram.com/dridani.id"
   - name: github
     url: "https://github.com/dridani"
   - name: telegram
