@@ -97,3 +97,8 @@ mark {
 .archive-month:not(:last-of-type) {
   border-bottom: 1px solid var(--tertiary);
 }
+
+.top-link {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+}
