@@ -14,15 +14,9 @@ comments: false
 draft: false
 ---
 
-Bagi saya, termux adalah salah satu aplikasi yang sangat sering saya gunakan. Mulai dari mengatur performa hp, mengendalikan server, bahkan blog ini pun terkadang saya kelola dari termux kalo lagi malas buka laptop.
-
-Nah! Agar aplikasi termux bisa berjalan dan dapat menunjang kebutuhan saya, maka ada beberapa hal yang perlu saya lakukan.
-
-Jika ingin, Anda juga bisa menggunakan setup ini atau menyesuaikannya lagi dengan kebutuhan Anda.
-
 ## Persiapan
 
-Setelah menginstal termux biasanya saya akan melakukan beberapa persiapan dasar terlebih dulu sebelum lanjut ke langkah yang sebenarnya.
+Hal yang pertama kali saya lakukan setelah aplikasi termux terinstal di hp adalah melakukan persiapan dengan melakukan beberapa konfigurasi sederhana, sebagai berikut.
 
 - Mengubah Lokasi Mirror
 
@@ -32,13 +26,13 @@ termux-change-repo
 
 > Di sini saya memilih **Single Mirror** - **DomaiNesia**
 
-- Izinkan Akses penyimpanan
+- Mengizinkan Akses Penyimpanan
 
 ```shell
 termux-setup-storage
 ```
 
-- Perbarui Package
+- Update dan Upgrade Package
 
 ```shell
 pkg update && pkg upgrade -y
@@ -48,10 +42,12 @@ pkg update && pkg upgrade -y
 
 ## Menghubungkan Termux ke Github
 
-- Instal Git
+Karena sebagian besar penggunaan termux saya digunakan untuk mengelola repositori github, maka di sini saya perlu menghubungkan termux ke akun github saya.
+
+- Install `Git`
 
 ```shell
-pkg install git
+pkg install git -y
 ```
 
 - Membuat Folder SSH
@@ -66,7 +62,7 @@ mkdir .ssh && cd .ssh
 ssh-keygen -t ed25519 -C "emailkamu@gmail.com"
 ```
 
-> Nanti akan muncul permintaan untuk mengisikan sesuatu, disini skip saja semua dengan menekan `Enter`
+>  Disini akan muncul permintaan untuk mengisikan sesuatu, ==tidak perlu mengisinya== lewati saja semua dengan menekan `Enter`
 
 - Salin Isi Public Key
 
@@ -76,7 +72,7 @@ cat id_ed25519.pub
 
 - Tempel Isi Public Key
 
-Tempel isi public key yang tadi telah di salin ke GitHub atau klik link berikut https://github.com/settings/keys
+Tempelkan isi public key yang telah di salin ke akun GitHub, atau klik link berikut ini https://github.com/settings/keys
 
 - Jalankan SSH Agent
 
@@ -90,17 +86,21 @@ eval "$(ssh-agent -s)"
 ssh-add id_ed25519
 ```
 
-- Tes Konek Ke Github
+- Tes konek ke akun Github
 
 ```shell
 ssh -T git@github.com
 ```
 
-> Di sini akan muncul pilihan **yes/no**, maka izinkan saja dengan mengetikan `yes` lalu tekan `Enter`
+> Di sini akan muncul permintaan, maka izinkan saja dengan mengetikan `yes` lalu tekan `Enter`
 
 ---
 
-## Mengganti Shell Bawaan Jadi ZSH
+## Mengganti Shell Bawaan Menjadi ZSH
+
+Tidak seperti shell bawaan termux yaitu Bash, menggunakan ZSH memberikan kita opsi untuk mengkustomisasi tampilan shell yang lebih atraktif dan eye catching.
+
+Karena itu saya memilih menggunakan ZSH sebagai shell default di termux saya dan memasangkan beberapa plugin pendukung.
 
 - Instal ZSH
 
@@ -116,21 +116,41 @@ chsh -s zsh
 
 - Restart Termux
 
-Tekan `CTRL + D` dan buka kembali aplikasi termux
+Keluar dari aplikasi termux atau tekan `CTRL + D` lalu buka kembali aplikasi termux
 
 ---
 
 ## Kustomisasi ZSH
 
-Saya ingin mengganti tulisan Welcome Termux menjadi neofetch.
+Karena saya sudah menjadikan ZSH sebagai shell default, maka belum afdol rasanya jika belum menambahkan beberapa kustomisasi dan plugin pendukung.
+
+Disini saya juga akan mengganti tulisan welcome termux menjadi Neofetch.
 
 - Instal Neofetch
 
 ```shell
-pkg install neofetch
+pkg install neofetch -y
 ```
 
+- Mengganti tulisan Welcome Termux
+
+```shell
+nano ../usr/etc/zshrc
+```
+
+Setelah masuk, maka tambahkan tulisan `neofetch` di baris paling bawah.
+
+> Oiya, jika kamu pengguna shell `bash`, ganti tujuannya ke `bashrc` seperti ini
+
+```shell
+nano ../usr/etc/bash.bashrc
+```
+
+Lalu simpan dengan menekan `CTRL + X` lalu `y` dan `Enter`
+
 - Menghapus Tulisan Welcome Termux
+
+Karena tulisan welcome termux sudah tidak dibutuhkan, maka hapus saja dengan mengetik
 
 ```shell
 rm ../usr/etc/motd
@@ -154,19 +174,19 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-- Edit File zshrc
+- Mengaktifkan Plugin
 
 ```shell
 nano ~/.zshrc
 ```
 
-- Cari tulisan
+Cari tulisan
 
 ```shell
 plugins=(git)
 ```
 
-- Ganti jadi seperti ini
+Lalu ganti jadi seperti ini
 
 ```shell
 plugins=(
@@ -176,11 +196,6 @@ zsh-syntax-highlighting
 )
 ```
 
-- Keluar dan Save 
+- Terakhir restart aplikasi termux dan FINISH.
 
-	- Tekan tombol `CTRL + X` 
-	- lalu `y` 
-	- dan `Enter`
-- Masuk lagi ke aplikasi termux
-
-Maka dengan ini selesai
+Jika ingin, kamu juga bisa menggunakan setup ini atau menyesuaikannya lagi sesuai kebutuhanmu.
