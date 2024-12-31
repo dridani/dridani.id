@@ -9,8 +9,8 @@ comments: false
 showBio: false
 ---
 
-Kenalkan nama saya Dony Ridani, saya berasal dari Kota Banjarbaru, Kalimantan Selatan. Saya seorang yang senang dengan hal-hal yang berhubungan tentang teknologi, atau kalo di zaman sekarang sebutannya *Tech Enthusiast*.
+Salam kenal semua. Kenalkan nama saya Dony Ridani, seorang yang lahir di Kota Banjarmasin, dan saat ini menetap di Kota Banjarbaru, Kalimantan Selatan.
 
-Blog ini adalah tempat bagi saya mengekpresikan diri, sekaligus mendokumentasikan hasil belajar dan pengalaman saya.
+Saya menyukai hal-hal yang berhubungan tentang teknologi, apalagi kalo itu menyangkut tentang Android, FOSS, dan Linux.
 
-Karena itulah blog ini tidak hanya sekedar membahas hal-hal mengenai teknologi, namun juga berisi curhatan dan opini pribadi saya.
+Dengan minat yang saya miliki terhadap teknologi, maka dibuatlah blog ini. Blog yang menjadi tempat bagi saya mengekpresikan diri sekaligus berbagi cerita, pengalaman, dan pengetahuan yang saya dapatkan.
