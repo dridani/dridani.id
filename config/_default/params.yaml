@@ -5,7 +5,7 @@ author: "Dony Ridani"
 DateFormat: "02 January 2006"
 mainsections: ["posts"]
 
-defaultTheme: light
+defaultTheme: dark
 disableThemeToggle: true
 disableSpecial1stPost: true
 disableScrollToTop: false
