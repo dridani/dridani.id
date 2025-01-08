@@ -76,8 +76,8 @@ mark {
 }
 
 .copy-code {
-  color: var(--primary);
-  background: var(--tertiary);
+  color: var(--tertiary);
+  background: var(--primary);
 }
 
 .terms-tags a {
