@@ -1,3 +1,21 @@
+body {
+  font-family: "Literata", Georgia, Cambria, "Noto Serif", "Droif Serif",
+    ui-serif, serif;
+}
+
+code {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+  font-variant-ligatures: contextual;
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  line-height: 0;
+}
+
 mark {
   padding: 0.1em;
   padding-bottom: 0.1em;
