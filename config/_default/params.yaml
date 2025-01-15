@@ -24,7 +24,9 @@ hideSummary: false
 showtoc: true
 tocopen: true
 social: true
+ShareButtons: ["facebook", "x", "telegram", "whatsapp", "reddit"]
 showBio: true
+
 
 assets:
   favicon: "favicon.ico"
