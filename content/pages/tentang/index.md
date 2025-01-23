@@ -9,8 +9,16 @@ comments: false
 showBio: false
 ---
 
-Salam kenal semua. Kenalkan nama saya **Dony Ridani**, seorang yang lahir di Kota Banjarmasin, dan saat ini menetap di Kota Banjarbaru, Kalimantan Selatan.
+Halo! Selamat datang di halaman yang akan menceritakan tentang diriku dan blog ini.
 
-Saya menyukai hal-hal yang berhubungan tentang teknologi, apalagi kalo itu menyangkut tentang **Android**, **_FOSS_**, dan **Linux**.
+Kenalkan dulu namaku Dony Ridani, biasa dipanggil Dony. Aku lahir di Kota Banjarmasin, saat ini aku tinggal di Kota Banjarbaru, Kalimantan Selatan.
 
-Dengan minat yang saya miliki terhadap teknologi, maka dibuatlah blog ini. Blog yang menjadi tempat bagi saya mengekpresikan diri sekaligus berbagi cerita, pengalaman, dan pengetahuan yang saya dapatkan.
+Aku hanyalah seorang yang suka dengan hal-hal seputar teknologi atau sebutan kerennya ***Tech Enthusiast***, dan selebihnya tidak ada yang spesial.
+
+Saat halaman ini kubuat, tak terasa umurku sudah menginjak 25 tahun. Usia yang dimana aku mulai merasa stuck dan terombang-ambing dalam mencari arah dan tujuan hidupku ***"Quarter-Life Crisis"***.
+
+Di tahun ini (2025), aku ingin keluar dari perasaan itu dengan memulai hal-hal baru, lebih membuka diri, dan fokus terhadap passion ku.
+
+Dengan alasan tersebut, blog ini akan menjadi saksi atas komitmen ku. Aku akan menuliskan setiap hal yang ingin ku ceritakan dengan apa ada nya disini.
+
+Karena itu blog ini tidak hanya berisikan hal-hal seputar teknologi, tapi juga terdapat cerita, pengalaman, dan kegabutan ku.
