@@ -13,9 +13,9 @@ Halo! Selamat datang di halaman yang akan menceritakan tentang diriku dan blog i
 
 Kenalkan dulu namaku Dony Ridani, biasa dipanggil Dony. Aku lahir di Kota Banjarmasin, saat ini aku tinggal di Kota Banjarbaru, Kalimantan Selatan.
 
-Aku hanyalah seorang yang suka dengan hal-hal seputar teknologi atau sebutan kerennya ***Tech Enthusiast***, dan selebihnya tidak ada yang spesial.
+Aku hanyalah seorang yang suka dengan hal-hal seputar teknologi atau sebutan kerennya _Tech Enthusiast_, dan selebihnya tidak ada yang spesial.
 
-Saat halaman ini kubuat, tak terasa umurku sudah menginjak 25 tahun. Usia yang dimana aku mulai merasa stuck dan terombang-ambing dalam mencari arah dan tujuan hidupku ***"Quarter-Life Crisis"***.
+Saat halaman ini kubuat, tak terasa umurku sudah menginjak 25 tahun. Usia yang dimana aku mulai merasa stuck dan terombang-ambing dalam mencari arah dan tujuan hidupku _"Quarter-Life Crisis"_.
 
 Di tahun ini (2025), aku ingin keluar dari perasaan itu dengan memulai hal-hal baru, lebih membuka diri, dan fokus terhadap passion ku.
 
