@@ -16,9 +16,9 @@ draft: false
 
 ## Persiapan
 
-Hal yang pertama kali saya lakukan setelah aplikasi termux terinstal di hp adalah melakukan persiapan dengan melakukan beberapa konfigurasi sederhana, sebagai berikut.
+Hal yang pertama kali saya lakukan setelah aplikasi termux terinstal di hp adalah melakukan persiapan dengan beberapa konfigurasi sederhana, sebagai berikut.
 
-- Mengubah Lokasi Mirror
+- Mengubah lokasi mirror
 
 ```shell
 termux-change-repo
@@ -26,7 +26,7 @@ termux-change-repo
 
 > Di sini saya memilih **Single Mirror** - **DomaiNesia**
 
-- Mengizinkan Akses Penyimpanan
+- Mengizinkan akses penyimpanan
 
 ```shell
 termux-setup-storage
@@ -44,13 +44,13 @@ pkg update && pkg upgrade -y
 
 Karena sebagian besar penggunaan termux saya digunakan untuk mengelola repositori github, maka di sini saya perlu menghubungkan termux ke akun github saya.
 
-- Install `Git`
+- Install Git
 
 ```shell
 pkg install git -y
 ```
 
-- Membuat Folder SSH
+- Membuat folder SSH
 
 ```shell
 mkdir .ssh && cd .ssh
@@ -62,15 +62,15 @@ mkdir .ssh && cd .ssh
 ssh-keygen -t ed25519 -C "emailkamu@gmail.com"
 ```
 
->  Disini akan muncul permintaan untuk mengisikan sesuatu, ==tidak perlu mengisinya== lewati saja semua dengan menekan `Enter`
+>  Disini akan muncul permintaan untuk mengisikan sesuatu, <mark>tidak perlu mengisinya</mark> lewati saja semua dengan menekan `Enter`
 
-- Salin Isi Public Key
+- Salin isi Public Key
 
 ```shell
 cat id_ed25519.pub
 ```
 
-- Tempel Isi Public Key
+- Tempel isi Public Key
 
 Tempelkan isi public key yang telah di salin ke akun GitHub, atau klik link berikut ini https://github.com/settings/keys
 
@@ -80,7 +80,7 @@ Tempelkan isi public key yang telah di salin ke akun GitHub, atau klik link beri
 eval "$(ssh-agent -s)"
 ```
 
-- Menambahkan Identitas
+- Menambahkan identitas
 
 ```shell
 ssh-add id_ed25519
@@ -96,11 +96,9 @@ ssh -T git@github.com
 
 ---
 
-## Mengganti Shell Bawaan Menjadi ZSH
+## Mengganti shell bawaan menjadi ZSH
 
-Tidak seperti shell bawaan termux yaitu Bash, menggunakan ZSH memberikan kita opsi untuk mengkustomisasi tampilan shell yang lebih atraktif dan eye catching.
-
-Karena itu saya memilih menggunakan ZSH sebagai shell default di termux saya dan memasangkan beberapa plugin pendukung.
+Tidak seperti shell bawaan termux yaitu `bash`, menggunakan ZSH memberikan kita opsi untuk mengkustomisasi tampilan shell yang lebih atraktif dan eye catching.
 
 - Instal ZSH
 
@@ -108,7 +106,7 @@ Karena itu saya memilih menggunakan ZSH sebagai shell default di termux saya dan
 pkg install zsh
 ```
 
-- Jadikan ZSH Sebagai Shell Bawaan
+- Jadikan ZSH sebagai shell bawaan
 
 ```shell
 chsh -s zsh
@@ -124,7 +122,7 @@ Keluar dari aplikasi termux atau tekan `CTRL + D` lalu buka kembali aplikasi ter
 
 Karena saya sudah menjadikan ZSH sebagai shell default, maka belum afdol rasanya jika belum menambahkan beberapa kustomisasi dan plugin pendukung.
 
-Disini saya juga akan mengganti tulisan welcome termux menjadi Neofetch.
+Disini saya juga akan mengganti tulisan welcome termux menjadi `Neofetch`.
 
 - Instal Neofetch
 
@@ -148,7 +146,7 @@ nano ../usr/etc/bash.bashrc
 
 Lalu simpan dengan menekan `CTRL + X` lalu `y` dan `Enter`
 
-- Menghapus Tulisan Welcome Termux
+- Menghapus tulisan Welcome Termux
 
 Karena tulisan welcome termux sudah tidak dibutuhkan, maka hapus saja dengan mengetik
 
@@ -196,6 +194,6 @@ zsh-syntax-highlighting
 )
 ```
 
-- Terakhir restart aplikasi termux dan FINISH.
+- Terakhir, restart aplikasi termux dan selesai.
 
 Jika ingin, kamu juga bisa menggunakan setup ini atau menyesuaikannya lagi sesuai kebutuhanmu.
