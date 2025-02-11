@@ -9,16 +9,14 @@ comments: false
 showBio: false
 ---
 
-Halo! Selamat datang di halaman yang akan menceritakan tentang diriku dan blog ini.
+Hai! (lagi), Kenalkan saya **Dony Ridani**, biasa dipanggil Dony. Saya lahir di Banjarmasin dan sekarang tinggal di Banjarbaru, Kalimantan Selatan.
 
-Kenalkan dulu namaku Dony Ridani, biasa dipanggil Dony. Aku lahir di Kota Banjarmasin, saat ini aku tinggal di Kota Banjarbaru, Kalimantan Selatan.
+Dunia teknologi selalu menarik perhatian saya, terutama hal-hal yang berkaitan tentang **Android**, **FOSS** (Free and Open Source Software), dan **Linux**. Ketertarikan ini bukan sekedar hobi, tapi sudah menjadi _passion_ yang membara dalam diri saya. Ada kepuasan tersendiri saat mengutak-atik atau mengoprek perangkat Android, mengekplorasi suatu OS ataupun suatu Aplikasi, dan ikut berkontribusi mendukung proyek _open source_ yang meskipun hanya berupa saran dan masukkan.
 
-Aku hanyalah seorang yang suka dengan hal-hal seputar teknologi atau sebutan kerennya _Tech Enthusiast_, dan selebihnya tidak ada yang spesial.
+Blog ini saya bangun sebagai wadah untuk menuangkan segala hal yang ada di benak saya. Di sini, saya ingin bebas berekspresi, berbagi cerita tentang hal-hal yang saya sukai, dan merangkai pengalaman hidup dalam bentuk tulisan. Blog ini adalah jurnal pribadi saya, tempat saya bercerita tentang perjalanan hidup dan perkembangan diri.
 
-Saat halaman ini kubuat, tak terasa umurku sudah menginjak 25 tahun. Usia yang dimana aku mulai merasa stuck dan terombang-ambing dalam mencari arah dan tujuan hidupku _"Quarter-Life Crisis"_.
+Oiya! Akhir-akhir ini, saya menemukan kesenangan baru dalam membaca buku. Sebagai seorang pemula dalam dunia literasi, saya ingin berbagi pandangan jujur dan sederhana tentang buku-buku yang saya baca. Review-review ini juga akan menjadi catatan perjalanan saya dalam menjelajahi dunia buku, dari sudut pandang seorang pembaca _awam_.
 
-Di tahun ini (2025), aku ingin keluar dari perasaan itu dengan memulai hal-hal baru, lebih membuka diri, dan fokus terhadap passion ku.
+Semoga blog ini bisa menjadi tempat yang nyaman bagi saya untuk berkembang dan _sharing_ dengan siapa saja yang tertarik dengan dunia teknologi, Android, FOSS, Linux, buku, atau sekadar ingin membaca kisah-kisah dari seorang Dony.
 
-Dengan alasan tersebut, blog ini akan menjadi saksi atas komitmen ku. Aku akan menuliskan setiap hal yang ingin ku ceritakan dengan apa ada nya disini.
-
-Karena itu blog ini tidak hanya berisikan hal-hal seputar teknologi, tapi juga terdapat cerita, pengalaman, dan kegabutan ku.
+Selamat membaca dan sampai jumpa di postingan berikutnya.
