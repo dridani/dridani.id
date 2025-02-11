@@ -25,7 +25,7 @@ showtoc: true
 tocopen: true
 social: true
 ShareButtons: ["facebook", "x", "telegram", "whatsapp", "reddit"]
-showBio: true
+showBio: false
 
 
 assets:
