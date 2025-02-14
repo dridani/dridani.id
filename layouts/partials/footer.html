@@ -9,7 +9,8 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }} </a></span> · 
         <span>
-        <a href="/kebijakan-privasi">Privasi</a> ·
+        <a href="/kebijakan-privasi">Privasi</a>
+        ·
         <a href="/index.xml">RSS</a>
         </span>
         {{- end }}
@@ -21,14 +22,12 @@
         {{- print " · "}}
     {{- end }}
     
-    <div>
         <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
         </span>
     </span>
-    </div>
 </footer>
 {{- end }}
 
