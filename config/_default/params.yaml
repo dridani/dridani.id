@@ -44,11 +44,9 @@ socialIcons:
   # - name: facebook
   #   url: "https://facebook.com/dony.ridani"
   - name: instagram
-    url: "https://instagram.com/dridani.id"
+    url: "https://instagram.com/dony.ridani"
   - name: github
     url: "https://github.com/dridani"
-  - name: telegram
-    url: "https://t.me/dony.ridani"
 
 cover:
   hidden: true
