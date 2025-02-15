@@ -76,6 +76,11 @@ mark {
 }
 
 .copy-code {
+  color: var(--code-block-bg);
+  background: var(--entry);
+}
+
+.dark .copy-code {
   color: var(--tertiary);
   background: var(--primary);
 }
