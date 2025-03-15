@@ -2,4 +2,4 @@ module github.com/dridani/dridani.id
 
 go 1.22
 
-require github.com/adityatelange/hugo-PaperMod v0.0.0-20250105143455-9f1f414be805 // indirect
+require github.com/adityatelange/hugo-PaperMod v0.0.0-20250308180000-72615b6d49ab // indirect
