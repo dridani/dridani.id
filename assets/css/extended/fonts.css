@@ -1,30 +1,33 @@
 @font-face {
-  font-family: "Literata";
-  src: url("/fonts/Literata/Literata-Light.woff2") format("woff2");
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Light.woff2") format("woff2");
   font-weight: light;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Literata";
-  src: url("/fonts/Literata/Literata-LightItalic.woff2") format("woff2");
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-LightItalic.woff2")
+    format("woff2");
   font-weight: light;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Literata";
-  src: url("/fonts/Literata/Literata-SemiBold.woff2") format("woff2");
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.woff2")
+    format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Literata";
-  src: url("/fonts/Literata/Literata-SemiBoldItalic.woff2") format("woff2");
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-SemiBoldItalic.woff2")
+    format("woff2");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
