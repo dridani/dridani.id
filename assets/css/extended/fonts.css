@@ -1,50 +1,39 @@
 @font-face {
-  font-family: "PlusJakartaSans";
-  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Light.woff2") format("woff2");
-  font-weight: light;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  src: url("/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "PlusJakartaSans";
-  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-LightItalic.woff2")
-    format("woff2");
-  font-weight: light;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PlusJakartaSans";
-  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.woff2")
-    format("woff2");
-  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  src: url("/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "PlusJakartaSans";
-  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-SemiBoldItalic.woff2")
-    format("woff2");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Monaspace";
-  src: url("/fonts/Monaspace/MonaspaceArgon-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  src: url("/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Monaspace";
-  src: url("/fonts/Monaspace/MonaspaceArgon-SemiBold.woff") format("woff");
-  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  src: url("/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  src: url("/fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
 }
