@@ -1,9 +1,7 @@
 # DRIDANI BLOG
 
-[![Powered by Hugo](https://img.shields.io/badge/Hugo-ff4088?logo=hugo&style=flat-square&label=Ditenagai%20oleh)](https://gohugo.io)
+[![Powered by Hugo](https://img.shields.io/badge/Hugo-ff4088?logo=hugo&style=flat-square&label=Powered%20by)](https://gohugo.io)
 
-This repo contains the setup for my personal website. 
+This repo contains the setup for my personal blog. 
 
-<br />
-
-<a href="https://dridani.id"><strong>Visit blog »</strong></a>
+<a href="https://dridani.id"><strong>Visit Blog »</strong></a>
