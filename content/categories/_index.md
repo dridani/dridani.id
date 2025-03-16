@@ -1,4 +1,0 @@
----
-title: Kategori
-url: /kategori
----

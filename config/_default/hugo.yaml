@@ -33,7 +33,6 @@ permalinks:
   posts: "/:slug/"
   pages: "/:slug/"
   tags: "/tag/:slug/"
-  categories: "/kategori/:slug/"
 
 markup:
   goldmark:

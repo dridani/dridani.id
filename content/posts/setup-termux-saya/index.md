@@ -2,8 +2,6 @@
 title: "Setup Termux Saya"
 Slug: "setup-termux-saya"
 date: 2024-10-10
-categories:
-  - Termux
 tags:
   - Termux
   - Setup
@@ -62,7 +60,7 @@ mkdir .ssh && cd .ssh
 ssh-keygen -t ed25519 -C "emailkamu@gmail.com"
 ```
 
->  Disini akan muncul permintaan untuk mengisikan sesuatu, <mark>tidak perlu mengisinya</mark> lewati saja semua dengan menekan `Enter`
+> Disini akan muncul permintaan untuk mengisikan sesuatu, <mark>tidak perlu mengisinya</mark> lewati saja semua dengan menekan `Enter`
 
 - Salin isi Public Key
 
