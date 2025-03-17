@@ -9,14 +9,14 @@ comments: false
 showBio: false
 ---
 
-Hai! (lagi), Kenalkan saya **Dony Ridani**, biasa dipanggil Dony. Saya lahir di Banjarmasin dan sekarang tinggal di Banjarbaru, Kalimantan Selatan.
+Halo! Kenalkan nama saya **Dony Ridani**, seorang yang lahir di kota Banjarmasin dan saat ini tinggal di kota Banjarbaru, Kalimantan Selatan.
 
-Dunia teknologi selalu menarik perhatian saya, terutama hal-hal yang berkaitan tentang **Android**, **FOSS** (Free and Open Source Software), dan **Linux**. Ketertarikan ini bukan sekedar hobi, tapi sudah menjadi _passion_ yang membara dalam diri saya. Ada kepuasan tersendiri saat mengutak-atik atau mengoprek perangkat Android, mengekplorasi suatu OS ataupun suatu Aplikasi, dan ikut berkontribusi mendukung proyek _open source_ yang meskipun hanya berupa saran dan masukkan.
+Tidak ada yang istimewa dari saya, hanya sekedar orang biasa yang ingin menjadi dirinya sendiri. Menyukai hal-hal yang berhubungan dengan teknologi, khususnya Android, FOSS (*Free and Open Source Software*), dan juga Linux.
 
-Blog ini saya bangun sebagai wadah untuk menuangkan segala hal yang ada di benak saya. Di sini, saya ingin bebas berekspresi, berbagi cerita tentang hal-hal yang saya sukai, dan merangkai pengalaman hidup dalam bentuk tulisan. Blog ini adalah jurnal pribadi saya, tempat saya bercerita tentang perjalanan hidup dan perkembangan diri.
+Blog ini adalah ruang digital tempat saya berekspresi, berbagi cerita tentang hal-hal yang saya sukai, dan merangkai suatu pengalaman dalam bentuk tulisan. Pada intinya di sini tidak melulu membahas mengenai topik tertentu, kebanyakan isinya *random* tergantung niat.
 
-Oiya! Akhir-akhir ini, saya menemukan kesenangan baru dalam membaca buku. Sebagai seorang pemula dalam dunia literasi, saya ingin berbagi pandangan jujur dan sederhana tentang buku-buku yang saya baca. Review-review ini juga akan menjadi catatan perjalanan saya dalam menjelajahi dunia buku, dari sudut pandang seorang pembaca _awam_.
+Alasan kenapa saya lebih senang bercerita di blog ini ketimbang upload foto maupun video di sosmed lainnya? Karena saya ingin bebas berekspresi tanpa batasan, *customable*, dan terkesan *eksklusif*. Mungkin kedepannya saya juga akan lebih ekspresif di sosmed lainnya, namun tetap saja blog ini menjadi yang utama dan lebih berkesan bagi saya.
 
-Semoga blog ini bisa menjadi tempat yang nyaman bagi saya untuk berkembang dan _sharing_ dengan siapa saja yang tertarik dengan dunia teknologi, Android, FOSS, Linux, buku, atau sekadar ingin membaca kisah-kisah dari seorang Dony.
+Mungkin itu saja dari saya, semoga tulisan singkat ini bisa menjawab beberapa pertanyaan, serta menggambarkan secara ringkas tentang siapa saya dan apa tujuan dari blog ini.
 
-Selamat membaca dan sampai jumpa di postingan berikutnya.
+Semoga blog ini bisa bermanfaat untuk kamu yang sudah membaca nya. Happy reading!
