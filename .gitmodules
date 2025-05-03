@@ -1,0 +1,3 @@
+[submodule "themes/BlackPaper"]
+	path = themes/BlackPaper
+	url = https://github.com/dridani/BlackPaper.git
