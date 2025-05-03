@@ -1,5 +1,5 @@
 module github.com/dridani/dridani.id
 
-go 1.23
+go 1.24.2
 
-require github.com/adityatelange/hugo-PaperMod v0.0.0-20250308180000-72615b6d49ab // indirect
+require github.com/dridani/BlackPaper v0.0.0-20250503081649-3e2391142f80 // indirect
