@@ -5,8 +5,6 @@ author: "Dony Ridani"
 DateFormat: "02 January 2006"
 mainsections: ["posts"]
 
-defaultTheme: auto
-disableThemeToggle: false
 disableSpecial1stPost: true
 disableScrollToTop: false
 ShowBreadCrumbs: false
