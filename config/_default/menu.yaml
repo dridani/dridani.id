@@ -5,9 +5,6 @@ main:
   - name: Arsip
     url: "/arsip"
     weight: 10
-  - name: Tag
-    url: "/tag"
-    weight: 15
   - name: Cari
     url: "/cari"
     weight: 20
