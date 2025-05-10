@@ -1,8 +1,7 @@
-baseURL: "http://localhost"
+baseURL: "https://dridani.id"
 title: "DRIDANI ID"
 languageCode: id-ID
 defaultContentLanguage: id
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -20,14 +19,21 @@ outputs:
     - RSS
     - JSON
 
+menu:
+  main:
+    - name: Tentang
+      url: "/tentang"
+      weight: 5
+    - name: Arsip
+      url: "/arsip"
+      weight: 10
+    - name: Cari
+      url: "/cari"
+      weight: 20
+
 minify:
   disableXML: true
   minifyOutput: true
-
-sitemap:
-  changefreq: "monthly"
-  filename: "sitemap.xml"
-  priority: 0.5
 
 permalinks:
   posts: "/:slug/"
