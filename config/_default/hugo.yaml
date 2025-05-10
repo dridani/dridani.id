@@ -21,13 +21,13 @@ outputs:
 
 menu:
   main:
-    - name: Tentang
+    - name: TENTANG
       url: "/tentang"
       weight: 5
-    - name: Arsip
+    - name: ARSIP
       url: "/arsip"
       weight: 10
-    - name: Cari
+    - name: CARI
       url: "/cari"
       weight: 20
 
