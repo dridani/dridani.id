@@ -10,7 +10,7 @@ disableScrollToTop: false
 ShowBreadCrumbs: false
 ShowReadingTime: true
 ShowWordCount: false
-ShowShareButtons: true
+ShowShareButtons: false
 ShowPostNavLinks: true
 ShowCodeCopyButtons: true
 ShowPageNums: true
@@ -23,7 +23,7 @@ showtoc: true
 tocopen: true
 social: true
 ShareButtons: ["facebook", "x", "telegram", "whatsapp", "reddit"]
-showBio: false
+showBio: true
 
 assets:
   favicon: "favicon.ico"
