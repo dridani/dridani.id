@@ -1,39 +1,23 @@
 @font-face {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "LXGW WenKai TC";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/lxgw-wenkai/lxgw-wenkai-tc-latin-300.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LXGW WenKai TC";
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  src: url("/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  src: url("/fonts/lxgw-wenkai/lxgw-wenkai-tc-latin-400.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  src: url("/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  src: url("/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "LXGW WenKai TC";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  src: url("/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  src: url("/fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+  src: url("/fonts/lxgw-wenkai/lxgw-wenkai-tc-latin-700.ttf") format("truetype");
 }
