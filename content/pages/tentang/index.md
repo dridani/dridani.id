@@ -1,5 +1,5 @@
 ---
-title: "Tentang Saya"
+title: "Tentang"
 url: tentang
 summary: "Halaman tentang saya dan blog ini"
 hideMeta: true
