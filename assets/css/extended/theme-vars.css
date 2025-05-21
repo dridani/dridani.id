@@ -1,6 +1,6 @@
 :root {
-  --gap: 15px;
-  --content-gap: 15px;
+  --gap: 18px;
+  --content-gap: 18px;
   --nav-width: 1024px;
   --main-width: 720px;
   --header-height: 60px;
@@ -13,8 +13,8 @@
   --tertiary: rgb(246, 248, 250);
   --content: rgb(21, 20, 26);
   --code-block-bg: rgb(40, 40, 40);
-  --code-bg: rgb(246, 248, 250); 
-  --border: rgb(209, 217, 224);
+  --code-bg: rgb(236, 238, 240); 
+  --border: rgb(236, 238, 240);
 }
 
 .dark {
