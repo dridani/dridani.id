@@ -5,12 +5,13 @@
 
 .post-content hr {
   margin: 30px 0;
+  height: 2px;
   background: none;
-  border-top: 2px dashed var(--border);
+  border-top: 2px solid var(--divider);
 }
 
 .archive-year:not(:last-of-type) {
-  border-bottom: 2px dashed var(--border);
+  border-bottom: 2px solid var(--divider);
 }
 
 .copy-code {
