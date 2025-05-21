@@ -13,7 +13,7 @@
   --tertiary: rgb(246, 248, 250);
   --content: rgb(21, 20, 26);
   --code-block-bg: rgb(40, 40, 40);
-  --code-bg: rgb(246, 248, 250); 
+  --code-bg: rgb(40, 40, 40); 
   --border: rgb(209, 217, 224);
 }
 
@@ -25,6 +25,6 @@
   --tertiary: rgb(30, 30, 30);
   --content: rgb(218, 218, 218);
   --code-block-bg: rgb(30, 30, 30);
-  --code-bg: rgb(30, 30, 30);
+  --code-bg: rgb(37, 37, 37);
   --border: rgb(57, 57, 57);
 }
