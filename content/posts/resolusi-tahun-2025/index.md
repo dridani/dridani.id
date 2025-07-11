@@ -9,7 +9,7 @@ summary: "Usaha memperbaiki diri dengan cara yang berbeda dari tahun-tahun sebel
 DescriptionSEO: "Usaha memperbaiki diri dengan cara yang berbeda"
 description: ""
 comments: false
-draft: false
+draft: true
 ---
 
 Tidak terasa hari berganti minggu, minggu berganti bulan, dan bulan berganti tahun. Tau-tau umur semakin tua saja. Begitu banyak tujuan dan hal yang ingin diraih, namun untuk meraih itu semua terasa cukup berat dan terkadang juga menyakitkan. Mungkin sudah menjadi kodratnya, kita sebagai manusia mengeluh akan setiap hal yang ada di kehidupan ini.
