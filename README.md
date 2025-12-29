@@ -4,4 +4,4 @@
 
 This repo contains the setup for my personal blog. 
 
-<a href="https://dridani.id"><strong>Visit Blog »</strong></a>
+<a href="https://dridani.vercel.app"><strong>Visit Blog »</strong></a>
