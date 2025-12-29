@@ -1,4 +1,4 @@
-module github.com/dridani/dridani.github.io
+module github.com/dridani/dridani.vercel.app
 
 go 1.23
 
