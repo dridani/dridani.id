@@ -25,6 +25,10 @@ social: true
 ShareButtons: ["facebook", "x", "telegram", "whatsapp", "reddit"]
 showBio: true
 
+analytics:
+  google:
+    SiteVerificationTag: "google58b40ada14dc5df2"
+
 assets:
   favicon: "favicon.ico"
   favicon16x16: "favicon-16x16.png"
