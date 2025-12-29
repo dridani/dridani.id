@@ -1,18 +1,10 @@
 {{- if not (.Param "hideFooter") }}
-<footer class="footer">
-    <div>
-        Dibuat dengan &hearts; di Banjarbaru, Indonesia
-    </div>
+  <footer class="footer">
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span>&copy; 2024 - {{ now.Year }}</span> · 
-        <span>
-        <a href="/kebijakan-privasi">Privasi</a>
-        ·
-        <a href="/index.xml">RSS</a>
-        </span>
+        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
         {{- print " · "}}
     {{- end }}
@@ -21,13 +13,11 @@
         {{ . | markdownify }}
         {{- print " · "}}
     {{- end }}
-    
-        <span>
+
+    <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/dridani/PaperWorks/" rel="noopener" target="_blank">PaperWorks</a>
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>
         </span>
-    </span>
 </footer>
 {{- end }}
 
@@ -42,9 +32,14 @@
 {{- partial "extend_footer.html" . }}
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        // Set the scroll position
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -90,11 +85,12 @@
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

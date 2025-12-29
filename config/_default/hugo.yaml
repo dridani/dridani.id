@@ -11,7 +11,7 @@ disableHugoGeneratorInject: true
 
 module:
   imports:
-    - path: github.com/dridani/PaperWorks
+  - path: github.com/adityatelange/hugo-PaperMod
 
 outputs:
   home:

@@ -1,5 +1,5 @@
 .bio {
-  background-color: var(--entry);
+  background-color: var(--code-bg);
   border-radius: var(--radius);
   padding: 15px 20px;
   border: 1px solid var(--border);

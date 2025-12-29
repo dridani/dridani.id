@@ -1,4 +1,4 @@
-title: "DRIDANI ID"
+title: "DRIDANI BLOG"
 description: "Blog statis sederhana yang berisi catatan, ulasan, dan pengalaman pribadi."
 keywords: ["DRIDANI", "Blog", "Dokumentasi", "Hugo", "Teknologi", "Tutorial"]
 author: "Dony Ridani"
@@ -40,10 +40,8 @@ homeInfoParams:
 socialIcons:
   - name: github
     url: "https://github.com/dridani"
-  - name: instagram
-    url: "https://instagram.com/dony.ridani"
   - name: telegram
-    url: "https://t.me/domoridomo"
+    url: "https://t.me/trgtxt"
 
 cover:
   hidden: true

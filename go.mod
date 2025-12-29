@@ -1,5 +1,5 @@
-module github.com/dridani/dridani.id
+module github.com/dridani/dridani.github.io
 
-go 1.23
+go 1.25.3
 
-require github.com/dridani/PaperWorks v0.0.0-20250521035426-d39ce380a4d2 // indirect
+require github.com/adityatelange/hugo-PaperMod v0.0.0-20251220143909-7d061d56d466 // indirect
